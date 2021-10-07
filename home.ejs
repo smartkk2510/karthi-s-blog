@@ -1,4 +1,4 @@
-<%- include("./partials/header") -%>
+<%- include("./header") -%>
 <h1>Home</h1>
 <p><%=startingContent%></p>
 <% posts.forEach((post) => { %>
@@ -8,4 +8,4 @@
         <a href="/posts/<%= post.title %>">Read More</a>
     </p>
 <% }); %>
-<%- include("./partials/footer") -%>
+<%- include("./footer") -%>
